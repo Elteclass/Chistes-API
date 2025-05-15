@@ -1,3 +1,18 @@
+# ============================================================================
+# Nombre del estudiante: Jaime Antonio Alvarez Crisóstomo
+# Materia: Lenguajes de Interfaz
+# Título del proyecto: Simulación de obtención de chistes desde una API en pantalla OLED
+# Fecha: [coloca aquí la fecha de entrega o realización]
+#
+# Descripción:
+# Este programa simula la conexión a una API externa para obtener chistes de forma aleatoria.
+# Dado que Wokwi, en su plan gratuito, no permite el uso de conexiones a Internet o peticiones HTTP,
+# se utiliza una lista local de chistes predefinidos para emular el comportamiento de una API.
+#
+# Cada chiste es formateado y mostrado en una pantalla OLED conectada vía I2C usando la librería `ssd1306`.
+# El sistema actualiza automáticamente el contenido de la pantalla cada 5 segundos, mostrando un nuevo chiste.
+# ============================================================================
+
 from machine import Pin, I2C
 import ssd1306
 import time
